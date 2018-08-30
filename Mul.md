@@ -25,7 +25,21 @@
 			"size": "M",
 			"speed": 30,
 			"entries": [
+			        {
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Muls are as broad and stocky as dwarves, but taller than most humans, averaging 6 feet in height. Your size is Medium."
+					]
+				},
 				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Your base walking speed is 30 feet."
+					]
+				},
+			        {
 					"type": "entries",
 					"name": "Mul Vitality",
 					"entries": [
@@ -40,32 +54,27 @@
 					]
 				},
 				{
+				        "type": "entries"
 					"name": "Powerful Physique",
 					"entries": [
 						"You have proficiency in the Athletics skill."
-					],
-					"type": "entries"
+					]
 				},
-        {
+                                {
+				        "type": "entries"
 					"name": "Tireless",
 					"entries": [
 						"You need to sleep 6 hours in a 72-hour period (instead of a 24-hour period) to gain the benefit of a long rest. In addition, you regain all of your spent Hit Dice when you finish a long rest."
-					],
-					"type": "entries"
+					]					
 				},
 				{
+				        "type": "entries"
 					"name": "Languages",
 					"entries": [
 						"You can speak, read, and write Common and Dwarvish, though your accent when speaking both Common and Dwarvish is much less pronounced than that of a dwarf."
-					],
-					"type": "entries"
-				}
+					]
+				},
 			],
-			"fluff": {
-				"entries": [
-					"Some assembly required."
-				]
-			},
 			"languageTags": [
 				"Common","Dwarvish"
 			]
